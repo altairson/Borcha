@@ -7,19 +7,39 @@
     <!-- link jquery lib here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
+     <!-- include fonts library -->
+     <script src="https://kit.fontawesome.com/61b7697622.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/main.css">
 
     <title>Borcha</title>
 </head>
 <body>
-    
-    <header>hader</header>
-    <main>main</main>
-    <footer>footer</footer>
-
-
-
-
+    <header>
+        <nav>
+            <div class="nav-links">
+                <button id="main_btn" class="nav_btn active">Borcha</button>
+                <button id="editor_btn" class="nav_btn">Editor</button>
+                <button id="privacy_btn" class="nav_btn">Privacy</button>
+            </div>
+            <div class="socials">
+                <a href="#">I</a>
+                <a href="#">T</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <div id="main" class="page">main</div>
+            <div id="editor" class="page hidden">editor</div>
+            <div id="privacy" class="page hidden">privacy</div>
+        </div>
+        <div class="options">
+            <i class="fa-solid fa-layer-group"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-globe"></i>
+        </div>
+    </main>
     <script src="./js/main.js"></script>
 </body>
 </html>
